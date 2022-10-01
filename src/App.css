@@ -1,0 +1,21 @@
+.App {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
+.inputfieldcon {
+  width: 80%;
+}
+.field {
+  padding-top: 10%;
+}
+.inputfield {
+  padding-top: 10%;
+  align-self: center;
+}
+.textfield {
+  padding-top: 10%;
+  width: 100%;
+}

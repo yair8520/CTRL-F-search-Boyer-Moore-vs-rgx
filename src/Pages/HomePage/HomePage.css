@@ -1,0 +1,49 @@
+.container {
+  width: 90%;
+
+  margin: auto;
+}
+table,
+th,
+td {
+  border: 1px solid black;
+}
+.subcontainer {
+  display: flex;
+  min-height: 500px;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+}
+.headline {
+  padding-bottom: 5%;
+}
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 70vw;
+}
+.buttonsContainer {
+  min-height: 150px;
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+.pContainer {
+  padding-top: 70px;
+}
+.pText {
+  border: 2px solid red;
+  padding: 10px;
+  border-radius: 25px;
+}
+.result {
+  width: 100%;
+}
+.resContainer {
+  width: 100%;
+  padding-top: 5%;
+}
